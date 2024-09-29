@@ -1,0 +1,32 @@
+/* Set font size of everything inside the body */
+body {
+    font-size: 20px;
+  }
+  
+  /* Tabs styling */
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-right: 5px;
+  }
+  
+  /* Highlight active tab */
+  .tab.active {
+    background-color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Content sections */
+  .tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Display the first content section by default */
+  #content1 {
+    display: block;
+  }
+  

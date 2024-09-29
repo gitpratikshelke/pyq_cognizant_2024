@@ -1,0 +1,20 @@
+/* Style for the buttons */
+button {
+    cursor: pointer;  /* Ensures the cursor changes to a pointer on hover */
+  }
+  
+  /* Style for the task list items */
+  li {
+    list-style-type: none;
+    margin: 10px 0;
+  }
+  
+  /* Style for the delete button */
+  .delete-task {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
